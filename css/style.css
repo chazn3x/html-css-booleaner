@@ -44,3 +44,10 @@ main .gallery {
 main .gallery .descrizione-foto {
     font-size: small;
 }
+/* articolo */
+main .article {
+    margin: 20px 0;
+}
+main .article p .testo-evidenziato {
+    background-color: yellow;
+}
