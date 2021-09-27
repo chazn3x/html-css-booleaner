@@ -57,6 +57,7 @@ main .article ul {
 /* tabella */
 main .article table {
     border-spacing: 0;
+    margin-bottom: 30px;
 }
 main .article table th {
     text-align: left;
