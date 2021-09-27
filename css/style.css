@@ -24,15 +24,23 @@ main {
     margin: auto;
     margin-top: 20px;
 }
+/* titolo */
 main .title h1 {
     margin-bottom: 5px;
 }
 main .title .credit {
     color: gray;
 }
-main .title .credit.name {
+main .title .credit .name {
     color: rgb(102, 224, 255);
 }
-main .title .credit.data {
+main .title .credit .data {
+    font-size: small;
+}
+/* galleria */
+main .gallery {
+    margin-top: 20px;
+}
+main .gallery .descrizione-foto {
     font-size: small;
 }
