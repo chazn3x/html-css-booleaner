@@ -3,14 +3,36 @@
     padding: 0;
 }
 
-/* header */
-header div {
+/* ++++++ header */
+header {
     background-image: url("../img/pattern.png");
     background-color: #639ff8;
     background-size: 300px;
     padding-top: 30px;
-    padding-left: 200px;
+}
+header div {
+    width: 80%;
+    margin: auto;
 }
 header img {
     width: 250px;
+}
+
+/* ++++++ main */
+main {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+main .title h1 {
+    margin-bottom: 5px;
+}
+main .title .credit {
+    color: gray;
+}
+main .title .credit.name {
+    color: rgb(102, 224, 255);
+}
+main .title .credit.data {
+    font-size: small;
 }
