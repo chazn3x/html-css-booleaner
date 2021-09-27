@@ -54,7 +54,7 @@ main .article p .testo-evidenziato {
 main .article ul {
     margin: 30px 0;
 }
-/* tabella */
+/* articolo tabella */
 main .article table {
     border-spacing: 0;
     margin-bottom: 30px;
@@ -71,4 +71,27 @@ main .article table thead {
 }
 main .article table tbody .riga-azzurra {
     background-color: rgb(164, 237, 255);
+}
+/* altri articoli */
+main .others h3 {
+    color: grey;
+}
+main .others h2 {
+    color: white;
+    padding: 10px;
+}
+main .others .riquadro-articolo {
+    width: 300px;
+    height: 200px;
+    margin: 10px 0;
+}
+main .others .riquadro-articolo.computer {
+    background-image: url("../img/monitor.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main .others .riquadro-articolo.abstract {
+    background-image: url("../img/graph.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
