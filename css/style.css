@@ -54,3 +54,20 @@ main .article p .testo-evidenziato {
 main .article ul {
     margin: 30px 0;
 }
+/* tabella */
+main .article table {
+    border-spacing: 0;
+}
+main .article table th {
+    text-align: left;
+    color: white;
+}
+main .article table .colonna-uno, .colonna-due {
+    width: 25%;
+}
+main .article table thead {
+    background-color: rgb(0, 183, 255);
+}
+main .article table tbody .riga-azzurra {
+    background-color: rgb(164, 237, 255);
+}
