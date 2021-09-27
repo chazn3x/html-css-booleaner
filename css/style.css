@@ -51,3 +51,6 @@ main .article {
 main .article p .testo-evidenziato {
     background-color: yellow;
 }
+main .article ul {
+    margin: 30px 0;
+}
